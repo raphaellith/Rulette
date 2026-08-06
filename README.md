@@ -48,6 +48,8 @@ Before the game begins, the host should:
 
 ### Sample slides
 
+&nbsp;
+
 <p align="center">
   <img src="assets/RuleBoard.png" alt="Generated rule board with 30 stacks of cards." width="600"><br>
   Generated rule board with 30 stacks of cards.
