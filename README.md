@@ -44,3 +44,18 @@ Before the game begins, the host should:
 - This version of the game does not come with a giant wheel. Instead, players may opt for dice or random number generators.
 - To flip a rule, select that rule and click `Rulette > Flip selected rule`.
 - To transfer hosting responsibilities to another player, simply send a share link for the presentation to the new host. Ensure that the new host is authorised to edit the file. The new host is also required to explicitly trust the app's developer before using any of the Apps Script extension's functionalities.
+
+
+### Sample slides
+
+<p align="center">
+  <img src="assets/RuleBoard.png" alt="Generated rule board with 30 stacks of cards." width="600">
+  Generated rule board with 30 stacks of cards.
+</p>
+
+&nbsp;
+
+<p align="center">
+  <img src="assets/Scoreboard.png" alt="Sample scoreboard slide." width="600">
+  Sample scoreboard slide.
+</p>
