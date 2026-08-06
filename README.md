@@ -49,13 +49,13 @@ Before the game begins, the host should:
 ### Sample slides
 
 <p align="center">
-  <img src="assets/RuleBoard.png" alt="Generated rule board with 30 stacks of cards." width="600">
+  <img src="assets/RuleBoard.png" alt="Generated rule board with 30 stacks of cards." width="600"><br>
   Generated rule board with 30 stacks of cards.
 </p>
 
 &nbsp;
 
 <p align="center">
-  <img src="assets/Scoreboard.png" alt="Sample scoreboard slide." width="600">
+  <img src="assets/Scoreboard.png" alt="Sample scoreboard slide." width="600"><br>
   Sample scoreboard slide.
 </p>
