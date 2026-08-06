@@ -41,5 +41,6 @@ Before the game begins, the host should:
     - either a `PROMPT` or a `MODIFIER` cover card; and
     - a card describing either a prompt or a modifier.
 - To add a `Hosts the game` rule to the active slide, select `Rulette > Add host rule`.
+- This version of the game does not come with a giant wheel. Instead, players may opt for dice or random number generators.
 - To flip a rule, select that rule and click `Rulette > Flip selected rule`.
 - To transfer hosting responsibilities to another player, simply send a share link for the presentation to the new host. Ensure that the new host is authorised to edit the file. The new host is also required to explicitly trust the app's developer before using any of the Apps Script extension's functionalities.
