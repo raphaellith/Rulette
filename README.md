@@ -1,6 +1,6 @@
 # Rulette
 
-An Apps Script extension that transforms any empty Google Slides presentation into a multi-player board game based on the [_Game Changer_ episode "Rulette"]((https://watch.dropout.tv/videos/rulette)).
+An Apps Script extension that transforms any empty Google Slides presentation into a multi-player board game based on the [_Game Changer_ episode "Rulette"](https://watch.dropout.tv/videos/rulette).
 
 This game can be played over video calls and is suitable for 3+ players.
 - All players must have functional Google accounts.
