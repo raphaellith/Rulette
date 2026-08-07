@@ -10,13 +10,14 @@ This game can be played over video calls and is suitable for 3+ players.
 
 ## Using this repository with Google Slides
 
-> [!NOTE]
-> This section does _not_ aim to explain the rules of this board game (at least not fully). For a complete demonstration of how this game works and what it is capable of, see the original _Game Changer_ episode.
-
 > [!WARNING]
 > This section contains spoilers for:
 > - the _Game Changer_ episode "Rulette"; and
 > - this board game.
+
+> [!NOTE]
+> This section does _not_ aim to explain the rules of this board game (at least not fully). For a complete demonstration of how this game works and what it is capable of, see the original _Game Changer_ episode.
+
 
 ### Pre-game preparation
 
