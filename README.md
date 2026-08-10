@@ -76,6 +76,6 @@ The custom `Rulette` menu provides buttons corresponding to the game mechanics o
 
 ### Notes
 
-- This version of the game does not come with a giant wheel. Instead, players may opt for dice or random number generators.
+- In lieu of a giant wheel, players may opt for dice or random number generators.
 
 - To transfer hosting responsibilities to another player, share the presentation with the new host. Ensure that the new host is authorised to edit the file. The new host is also required to explicitly trust the app's developer before using the Apps Script extension's functionalities.
