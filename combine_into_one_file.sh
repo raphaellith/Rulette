@@ -26,25 +26,22 @@ if [[ "$out_dir" != "." && ! -d "$out_dir" ]]; then
   mkdir -p "$out_dir"
 fi
 
-# Collect all .gs files from the script's directory, sorted alphabetically
-# for a deterministic merge order. (Uses a read loop for bash 3.2 on macOS.)
+# Collect all .gs files from the script's directory, sorted alphabetically for a deterministic merge order
 files=()
 while IFS= read -r file; do
   files+=("$file")
 done < <(find "$script_dir" -maxdepth 1 -name '*.gs' -print | sort)
 
-# Bail out if there is nothing to merge.
+# Bail out if there is nothing to merge
 if [[ ${#files[@]} -eq 0 ]]; then
   echo "Error: no .gs files found in $script_dir" >&2
   exit 1
 fi
 
-# Truncate/create the output file before appending to it.
+# Truncate/create the output file before appending to it
 : > "$output"
 
-# Concatenate each file, prefixed by a banner comment and followed by a
-# blank line so files without a trailing newline (e.g. Flip.gs) still
-# separate cleanly.
+# Concatenate each file, prefixed by a banner comment and followed by a blank line
 for file in "${files[@]}"; do
   name="$(basename "$file")"
   {
