@@ -2,10 +2,7 @@
 
 An Apps Script extension that transforms any empty Google Slides presentation into a multi-player board game based on the _Game Changer_ episode ["Rulette"](https://watch.dropout.tv/videos/rulette).
 
-This game can be played over video calls and is suitable for 3+ players.
-- All players must have functional Google accounts.
-- One player will be responsible for hosting the game.
-- All players, except the host, are not expected to be familiar with the game.
+All players must have functional Google accounts.
 
 
 ## How to use this repository
@@ -14,6 +11,7 @@ This game can be played over video calls and is suitable for 3+ players.
 > This section contains spoilers for:
 > - the _Game Changer_ episode "Rulette"; and
 > - this board game.
+
 
 ### Set up the Google Slides presentation
 
