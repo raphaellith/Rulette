@@ -1,13 +1,3 @@
-/*
-COLOR SCHEME:
-https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51
-*/
-
-const numOfRowColumns = 5;
-const numOfRuleRows = 6;
-const cardWidthToHorizontalGapRatio = 10;
-const cardHeightToVerticalGapRatio = 10;
-
 function getGapDimensions() {
   const presentation = SlidesApp.getActivePresentation();
   const pageWidth = presentation.getPageWidth();
@@ -53,26 +43,26 @@ function insertStack(rulesSlide, stack, i) {
   const y = gapDimensions.verticalGap + (cardDimensions.cardHeight + gapDimensions.verticalGap) * rowIndex;
 
   // End card
-  insertCard(rulesSlide, x, y, "#222222", "#555555", "END", 800, 20, "#FFFFFF");
+  insertCard(rulesSlide, x, y, END_CARD_BORDER_COLOR, END_CARD_FILL_COLOR, "END", 800, 20, WHITE);
   
   if ('prompt' in stack) {
     // Prompt card
-    insertCard(rulesSlide, x, y, "#000000", "#FFFFFF", stack.prompt.toUpperCase(), 800, 12, "#000000");
+    insertCard(rulesSlide, x, y, BLACK, WHITE, stack.prompt.toUpperCase(), 800, 12, BLACK);
 
     // Prompt cover card
-    insertCard(rulesSlide, x, y, "#000000", "#FFFFFF", "PROMPT", 800, 20, "#000000");
+    insertCard(rulesSlide, x, y, BLACK, WHITE, "PROMPT", 800, 20, BLACK);
   } else {  // Modifier
     // Modifier card
-    insertCard(rulesSlide, x, y, "#7E5F13", "#A77F19", stack.modifier.toUpperCase(), 800, 20, "#FFFFFF");
+    insertCard(rulesSlide, x, y, MODIFIER_CARD_BORDER_COLOR, MODIFIER_CARD_FILL_COLOR, stack.modifier.toUpperCase(), 800, 20, WHITE);
 
     // Modifier cover card
-    insertCard(rulesSlide, x, y, "#926F16", "#EFD593", "MODIFIER", 800, 20, "#926F16");
+    insertCard(rulesSlide, x, y, MODIFIER_COVER_CARD_BORDER_COLOR, MODIFIER_COVER_CARD_FILL_COLOR, "MODIFIER", 800, 20, MODIFIER_COVER_CARD_BORDER_COLOR);
   }
 
-  const ruleCardBorderColor = i % 2 ? "#B7590D" : "#B03618";
-  const ruleCardFillColor = i % 2 ? "#E46F10" : "#E24E29";
-  const ruleCard = insertCard(rulesSlide, x, y, ruleCardBorderColor, ruleCardFillColor, stack.rule.front.toUpperCase(), 400, 12, "#FFFFFF");
-  const ruleCoverCard = insertCard(rulesSlide, x, y, ruleCardBorderColor, ruleCardFillColor, "RULE", 400, 20, "#FFFFFF");
+  const ruleCardBorderColor = i % 2 ? RULE_CARD_BORDER_COLOR_1 : RULE_CARD_BORDER_COLOR_2;
+  const ruleCardFillColor = i % 2 ? RULE_CARD_BORDER_COLOR_2 : RULE_CARD_FILL_COLOR_2;
+  const ruleCard = insertCard(rulesSlide, x, y, ruleCardBorderColor, ruleCardFillColor, stack.rule.front.toUpperCase(), 400, 12, WHITE);
+  const ruleCoverCard = insertCard(rulesSlide, x, y, ruleCardBorderColor, ruleCardFillColor, "RULE", 400, 20, WHITE);
 
   ruleCard.getText().getTextStyle().setItalic(true);
   ruleCoverCard.getText().getTextStyle().setItalic(true);

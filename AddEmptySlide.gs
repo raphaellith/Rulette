@@ -1,5 +1,5 @@
 function addSlideToPresentation() {
   const slide = SlidesApp.getActivePresentation().appendSlide();
-  slide.getBackground().setSolidFill("#264653");
+  slide.getBackground().setSolidFill(SLIDE_BACKGROUND_COLOR);
   return slide;
 }

@@ -1,0 +1,27 @@
+// DIMENSIONS
+const numOfRowColumns = 5;
+const numOfRuleRows = 6;
+const cardWidthToHorizontalGapRatio = 10;
+const cardHeightToVerticalGapRatio = 10;
+
+// COLOR SCHEME
+// https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51
+const BLACK = "#000000";
+const WHITE = "#FFFFFF";
+
+const SLIDE_BACKGROUND_COLOR = "#264653";
+
+const END_CARD_BORDER_COLOR = "#222222";
+const END_CARD_FILL_COLOR = "#555555";
+
+const MODIFIER_CARD_BORDER_COLOR = "#7E5F13";
+const MODIFIER_CARD_FILL_COLOR = "#A77F19";
+
+const MODIFIER_COVER_CARD_BORDER_COLOR = "#926F16";
+const MODIFIER_COVER_CARD_FILL_COLOR = "#6e6a5e";
+
+const RULE_CARD_BORDER_COLOR_1 = "#B7590D";
+const RULE_CARD_FILL_COLOR_1 = "#E46F10";
+
+const RULE_CARD_BORDER_COLOR_2 = "#B03618";
+const RULE_CARD_FILL_COLOR_2 = "#E24E29";
