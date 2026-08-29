@@ -1,8 +1,12 @@
 // DIMENSIONS
 const numOfRowColumns = 5;
 const numOfRuleRows = 6;
+
 const cardWidthToHorizontalGapRatio = 10;
 const cardHeightToVerticalGapRatio = 10;
+
+const CARD_BORDER_WEIGHT = 3;
+
 
 // COLOR SCHEME
 // https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51
@@ -25,3 +29,10 @@ const RULE_CARD_FILL_COLOR_1 = "#E46F10";
 
 const RULE_CARD_BORDER_COLOR_2 = "#B03618";
 const RULE_CARD_FILL_COLOR_2 = "#E24E29";
+
+// Font styles
+const HEAVY_FONT_WEIGHT = 800;
+const LIGHT_FONT_WEIGHT = 400;
+
+const LARGE_FONT_SIZE = 20;
+const SMALL_FONT_SIZE = 12;

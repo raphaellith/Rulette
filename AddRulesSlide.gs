@@ -38,10 +38,10 @@ function insertCard(slide, x, y, borderFill, fill, text, fontIsHeavy, fontIsLarg
   const cardDimensions = getCardDimensions();
 
   const card = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, x, y, cardDimensions.cardWidth, cardDimensions.cardHeight);
-  card.getBorder().setWeight(3).getLineFill().setSolidFill(borderFill);
+  card.getBorder().setWeight(CARD_BORDER_WEIGHT).getLineFill().setSolidFill(borderFill);
   card.getFill().setSolidFill(fill);
   card.getText().appendText(text);
   card.getText().getParagraphStyle().setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
-  card.getText().getTextStyle().setFontFamilyAndWeight("Roboto Condensed", fontIsHeavy ? 800 : 400).setForegroundColor(textColor).setFontSize(fontIsLarge ? 20 : 12);
+  card.getText().getTextStyle().setFontFamilyAndWeight("Roboto Condensed", fontIsHeavy ? HEAVY_FONT_WEIGHT : LIGHT_FONT_WEIGHT).setForegroundColor(textColor).setFontSize(fontIsLarge ? LARGE_FONT_SIZE : SMALL_FONT_SIZE);
   return card;
 }
