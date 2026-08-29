@@ -36,7 +36,7 @@ function addHostRuleToActiveSlide() {
   const x = (presentation.getPageWidth() - cardDimensions.cardWidth) / 2;
   const y = (presentation.getPageHeight() - cardDimensions.cardHeight) / 2;
 
-  const ruleCard = insertCard(activeSlide, x, y, RULE_CARD_BORDER_COLOR_1, RULE_CARD_FILL_COLOR_1, hostRule.front.toUpperCase(), false, 12, WHITE);
+  const ruleCard = insertCard(activeSlide, x, y, RULE_CARD_BORDER_COLOR_1, RULE_CARD_FILL_COLOR_1, hostRule.front.toUpperCase(), false, false, WHITE);
   ruleCard.getText().getTextStyle().setItalic(true);
 }
 
