@@ -1,6 +1,6 @@
 function insertStack(rulesSlide, stack, i) {
-  const rowIndex = Math.trunc(i / numOfRowColumns);
-  const columnIndex = i % numOfRowColumns;
+  const rowIndex = Math.trunc(i / NUM_OF_RULE_COLUMNS);
+  const columnIndex = i % NUM_OF_RULE_COLUMNS;
 
   const cardDimensions = getCardDimensions();
   const gapDimensions = getGapDimensions();

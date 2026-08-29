@@ -1,9 +1,9 @@
 // DIMENSIONS
-const numOfRowColumns = 5;
-const numOfRuleRows = 6;
+const NUM_OF_RULE_COLUMNS = 5;
+const NUM_OF_RULE_ROWS = 6;
 
-const cardWidthToHorizontalGapRatio = 10;
-const cardHeightToVerticalGapRatio = 10;
+const CARD_WIDTH_TO_HORIZONTAL_GAP_RATIO = 10;
+const CARD_HEIGHT_TO_VERTICAL_GAP_RATIO = 10;
 
 const CARD_BORDER_WEIGHT = 3;
 
