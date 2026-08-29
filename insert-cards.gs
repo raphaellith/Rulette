@@ -41,7 +41,7 @@ function insertStack(rulesSlide, stack, i) {
   }
 
   const ruleCardBorderColor = i % 2 ? RULE_CARD_BORDER_COLOR_1 : RULE_CARD_BORDER_COLOR_2;
-  const ruleCardFillColor = i % 2 ? RULE_CARD_BORDER_COLOR_2 : RULE_CARD_FILL_COLOR_2;
+  const ruleCardFillColor = i % 2 ? RULE_CARD_FILL_COLOR_1 : RULE_CARD_FILL_COLOR_2;
   const ruleCard = insertCard(rulesSlide, x, y, ruleCardBorderColor, ruleCardFillColor, stack.rule.front.toUpperCase(), false, false, WHITE);
   const ruleCoverCard = insertCard(rulesSlide, x, y, ruleCardBorderColor, ruleCardFillColor, "RULE", false, true, WHITE);
 
