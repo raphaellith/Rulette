@@ -2,11 +2,14 @@ function insertCard(slide, x, y, borderFill, fill, text, fontIsHeavy, fontIsLarg
   const cardDimensions = getCardDimensions();
 
   const card = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, x, y, cardDimensions.cardWidth, cardDimensions.cardHeight);
+
   card.getBorder().setWeight(CARD_BORDER_WEIGHT).getLineFill().setSolidFill(borderFill);
   card.getFill().setSolidFill(fill);
+
   card.getText().appendText(text);
   card.getText().getParagraphStyle().setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
   card.getText().getTextStyle().setFontFamilyAndWeight(FONT_FAMILY, fontIsHeavy ? HEAVY_FONT_WEIGHT : LIGHT_FONT_WEIGHT).setForegroundColor(textColor).setFontSize(fontIsLarge ? LARGE_FONT_SIZE : SMALL_FONT_SIZE);
+
   return card;
 }
 
