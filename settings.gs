@@ -31,6 +31,8 @@ const RULE_CARD_BORDER_COLOR_2 = "#B03618";
 const RULE_CARD_FILL_COLOR_2 = "#E24E29";
 
 // Font styles
+const FONT_FAMILY = "Roboto Condensed";
+
 const HEAVY_FONT_WEIGHT = 800;
 const LIGHT_FONT_WEIGHT = 400;
 
