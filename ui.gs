@@ -74,10 +74,10 @@ function flip() {
 
     if (ruleFront === displayedRule) {
       flippedRule = ruleBack;
-      break;
+      return;
     } else if (ruleBack === displayedRule) {
       flippedRule = ruleFront;
-      break;
+      return;
     }
   }
 
