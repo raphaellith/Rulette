@@ -23,15 +23,6 @@ function getCardDimensions() {
   };
 }
 
-function addRulesSlideToPresentation() {
-  const rulesSlide = addSlideToPresentation();
-
-  const stacks = generateStacks();
-  for (const [i, stack] of stacks.entries()) {
-    insertStack(rulesSlide, stack, i);
-  }  
-}
-
 function insertStack(rulesSlide, stack, i) {
   const rowIndex = Math.trunc(i / numOfRowColumns);
   const columnIndex = i % numOfRowColumns;
