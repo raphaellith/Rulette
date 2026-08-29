@@ -30,6 +30,7 @@ const RULE_CARD_FILL_COLOR_1 = "#E46F10";
 const RULE_CARD_BORDER_COLOR_2 = "#B03618";
 const RULE_CARD_FILL_COLOR_2 = "#E24E29";
 
+
 // Font styles
 const FONT_FAMILY = "Roboto Condensed";
 
