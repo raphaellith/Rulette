@@ -6,10 +6,7 @@ function getGapDimensions() {
   const horizontalGap = pageWidth / ((1 + cardWidthToHorizontalGapRatio) * numOfRowColumns + 1);
   const verticalGap = pageHeight / ((1 + cardHeightToVerticalGapRatio) * numOfRuleRows + 1);
 
-  return {
-    horizontalGap,
-    verticalGap
-  };
+  return { horizontalGap, verticalGap };
 }
 
 function getCardDimensions() {
@@ -17,10 +14,7 @@ function getCardDimensions() {
   const cardWidth = gapDimensions.horizontalGap * cardWidthToHorizontalGapRatio;
   const cardHeight = gapDimensions.verticalGap * cardHeightToVerticalGapRatio;
 
-  return {
-    cardWidth,
-    cardHeight
-  };
+  return { cardWidth, cardHeight };
 }
 
 function insertStack(rulesSlide, stack, i) {
